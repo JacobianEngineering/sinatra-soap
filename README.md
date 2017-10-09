@@ -1,6 +1,6 @@
-# Sinatra::Soap — Not maintained. 
+# Sinatra::Soap
 
-[![Build Status](https://travis-ci.org/IvanShamatov/sinatra-soap.png?branch=master)](https://travis-ci.org/IvanShamatov/sinatra-soap) [![Code Climate](https://codeclimate.com/github/IvanShamatov/sinatra-soap.png)](https://codeclimate.com/github/IvanShamatov/sinatra-soap) [![Gem Version](https://badge.fury.io/rb/sinatra-soap.png)](http://badge.fury.io/rb/sinatra-soap)
+[![Build Status](https://travis-ci.org/ejhayes/sinatra-soap.svg?branch=master)](https://travis-ci.org/ejhayes/sinatra-soap) [![Maintainability](https://api.codeclimate.com/v1/badges/97acacfcc02aa7f03f6a/maintainability)](https://codeclimate.com/github/ejhayes/sinatra-soap/maintainability) [![Gem Version](https://badge.fury.io/rb/sinatra-soap-current.png)](http://badge.fury.io/rb/sinatra-soap-current)
 
 Sinatra-soap gem makes task to create SOAP API really simple. Inspired by WashOut gem for Rails. But remember, the only reason why you should use SOAP is legacy code.
 
@@ -10,6 +10,12 @@ Sinatra-soap gem makes task to create SOAP API really simple. Inspired by WashOu
 In case of simplicity and quick first working release: 
 
 ## Usage
+
+Add the following to your gemfile:
+
+```ruby
+gem 'sinatra-soap-current'
+```
 
 A classic application would work like that: 
 

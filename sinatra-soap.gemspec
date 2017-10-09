@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'sinatra/soap/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sinatra-soap"
+  spec.name          = "sinatra-soap-current"
   spec.version       = Sinatra::Soap::VERSION
   spec.authors       = ["Ivan Shamatov"]
-  spec.email         = ["status.enable@gmail.com"]
+  spec.email         = ["eric@deployfx.com"]
   spec.description   = %q{Sinatra-soap gem makes task to create SOAP API really simple. Inspired by WashOut gem for Rails. But remember, the only reason why you should use SOAP is legacy code.}
   spec.summary       = %q{Handling SOAP requests for sinatra inspired by washout}
   spec.homepage      = "https://github.com/IvanShamatov/sinatra-soap"
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rack-test"
-  spec.add_development_dependency "debugger"
+  spec.add_development_dependency "byebug"
 
 
   spec.add_runtime_dependency "builder"

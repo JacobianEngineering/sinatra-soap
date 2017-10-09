@@ -24,7 +24,7 @@ describe "Request" do
     expect(@request.execute).to be_an_instance_of(Sinatra::Soap::Response)
   end
 
-  it "should validate input with WSDL" do 
-    pending
-  end
+  #it "should validate input with WSDL" do 
+  #  pending
+  #end
 end
